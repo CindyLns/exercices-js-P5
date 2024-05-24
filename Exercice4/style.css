@@ -1,0 +1,31 @@
+header{
+    background-color: #FFCC99;
+}
+main{
+    background-color: #E6F2FF;
+    display: flex;
+}
+aside {
+    background-color: #B3D9FF;
+    flex: 1;
+}
+footer {
+    background-color: #99CC99;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+section {
+    margin: 20px;
+    flex: 3;
+}
+aside,
+footer {
+    border: solid 1px #CCC;
+}
+header,
+footer {
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.353));
+    -webkit-filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.353));
+}
